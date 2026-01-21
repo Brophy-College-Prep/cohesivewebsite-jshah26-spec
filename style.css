@@ -1,0 +1,77 @@
+body, html {
+  background-color: #f4fbfb;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+  color: #0b3c5d;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b3c5d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1c6ea4;
+}
+
+/* Paragraph styling */
+p {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 20px;
+  color: #222;
+}
+
+/* Highlight box at bottom */
+#website {
+  border: 2px solid #0b3c5d;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: white;
+}
+
+/* Parallax sections */
+.parallax {
+  background-image: url("assets/square.png");
+  height: 60%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxtwo {
+  background-image: url("assets/color.png");
+  height: 60%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
